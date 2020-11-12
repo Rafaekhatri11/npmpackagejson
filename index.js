@@ -1,5 +1,5 @@
 var express = require('express');
-var app = express(); // here I use the express() method, instead of the createServer()
+var app = express();
 
 app.get('/', function(req, res){
   res.send('Hello World');
